@@ -1,0 +1,13 @@
+<launch>
+
+    <arg name="image_topic" default="/head_camera/rgb/image_raw"/>
+
+    <node name="color_gui_node" pkg="cmvision" type="colorgui" respawn="false"
+
+    output="screen">
+
+        <remap from="image" to="$(arg image_topic)"/>
+
+    </node>    
+
+</launch>
