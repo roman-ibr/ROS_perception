@@ -1,6 +1,9 @@
 # ROS_perception
 
 
+## TurtleBot 
+![Image of Yaktocat](https://drive.google.com/uc?export=view&id=1Q6EA7UfmhWx5E06SPSpXvja3vzIfRV7Y)
+
 The repository contain the following examples: 
 * Use OpenCV with ROS
 * Make robots track objects by their colour blobs
